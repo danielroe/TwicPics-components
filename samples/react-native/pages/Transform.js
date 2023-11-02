@@ -23,11 +23,6 @@ const Transform = () => {
                     placeholder="preview"
                     preTransform={transform}
                     ratio="4/3"
-                    style={styles.customImage}
-                    transition="fade"
-                    transitionTimingFunction={Easing.ease}
-                    transitionDelay="0"
-                    transitionDuration="400"
                 />
             </View>
         </View>
@@ -37,10 +32,6 @@ const Transform = () => {
 const styles = StyleSheet.create( {
     "imgContainer": {
         "marginTop": 20,
-    },
-    "customImage": {
-        "height": 100,
-        "backgroundColor": `#8F00FF`,
     },
     "container": {
         "padding": 20,
